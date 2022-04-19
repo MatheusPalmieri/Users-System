@@ -12,7 +12,7 @@
 <body>
     <div class='menu'>
         <div class='profile'>
-            <img class='profile-icon' src='img/icon.jpg' alt='Ícone de Perfil'>
+            <img class='profile-icon' src='image/icon.jpg' alt='Ícone de Perfil'>
             <span class='profile-name'>Gustavo Kamihara</span>
             <span class='profile-admin'>Administrador</span>
         </div>
@@ -26,7 +26,7 @@
         </div>
     </div>
     <div class='content'>
-        <img class='logo' src="img/logo.png" alt="Logo">
+        <img class='logo' src="image/logo.png" alt="Logo">
         <table class='users'>
             <tr>
                 <td class='table-id'>n°</td>
@@ -38,19 +38,6 @@
                 <td class='table-admin'>Admin</td>
                 <td class='table-actions'>
                     <span class="material-icons-sharp add">add</span>
-                </td>
-            </tr>
-            <tr>
-                <td class='table-icon'>1</td>
-                <td class='table-icon'><img src='img/icon.jpg' alt='Ícone'></td>
-                <td class='table-name'>Gustavo Kamihara</td>
-                <td class='table-email'>teste.teste@gmail.com</td>
-                <td class='table-phone'>11 999991234</td>
-                <td class='table-date'>23/06/2021 11:16</td>
-                <td class='table-admin'>Sim</td>
-                <td class='table-actions'>
-                    <span class="material-icons-sharp edit-btn">edit</span>
-                    <span class="material-icons-sharp delete-btn">delete</span>
                 </td>
             </tr>
         </table>
@@ -69,7 +56,7 @@
                     <input type='checkbox' class='form-admin' name='admin'>
                     Administrador</label>
                 </div>
-                <input type='file' class='form-icon'>
+                <input type='file' name="photo" class='form-icon'>
                 <span class="material-icons-sharp check">done</span>
             </div>
         </form>
@@ -88,10 +75,14 @@
                     <input type='checkbox' class='form-admin' name='admin'>
                     Administrador</label>
                 </div>
-                <input type='file' class='form-icon'>
+                <input type='file' name="photo" class='form-icon'>
                 <span class="material-icons-sharp check">done</span>
             </div>
         </form>
     </div>
 </body>
+<!-- Script -->
+<script src="javascript/models/User.js"></script>
+<script src="javascript/controllers/UserController.js"></script>
+<script src="javascript/app.js"></script>
 </html>
