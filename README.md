@@ -23,7 +23,7 @@
 
 ### Features
 
-- [ ] Editar e Excluir
+- [ ] Load da página
 - [ ] Estilizar
 
 ---
